@@ -2172,17 +2172,42 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
+		
+
+		.video-container {
+			position: absolute;
+		    top:0;
+			left:0;
+			width:100%;
+			height: 100%; /* Adjust this value to control the height of the video */
+			overflow: hidden;
+		}
+
+		video {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			
+		}
+
+
+
+
+
+
 /* Header */
 
 	#header {
 		position: relative;
-		background-image: url(https://media.istockphoto.com/id/1470838826/photo/variation-of-spices.webp?b=1&s=170667a&w=0&k=20&c=r8yGC78DDL4XHblKz-os8u0Be021UmSImjwW3AL95z8=);
+		/*background-image: url(https://media.istockphoto.com/id/1470838826/photo/variation-of-spices.webp?b=1&s=170667a&w=0&k=20&c=r8yGC78DDL4XHblKz-os8u0Be021UmSImjwW3AL95z8=);
 		background-size: cover;
 		background-position: center center;
-		background-attachment: fixed;
+		background-attachment: fixed;*/
+		
 		color: #fcfafa;
 		text-align: center;
-		padding: 7.5em 0 2em 0;
+		padding:0;
 		cursor: default;
 	}
 
