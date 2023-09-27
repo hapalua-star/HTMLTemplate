@@ -2320,16 +2320,17 @@ input, select, textarea {
 }
 
 .imageQ {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 0px;
 	z-index: 12;
+	
 }
 
 
 
 	#nav {
-		position: absolute;
+		position: fixed;
 		top: 0px;
 		left: 0;
 		width: 100%;
@@ -3152,9 +3153,13 @@ input, select, textarea {
 
 		/* Nav */
 
-			#nav {
-				display: none;
-			}
+		/* Add this CSS code to your stylesheet */
+
+#nav ul li {
+	display: none;
+  }
+  
+
 
 		/* Banner */
 
