@@ -2322,7 +2322,8 @@ input, select, textarea {
 .imageQ {
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 0px;
+	z-index: 12;
 }
 
 
@@ -2783,23 +2784,14 @@ input, select, textarea {
 
 	}
 
-/* Mobile */
+/*Mobile*/ 
 
-	#navPanel, #titleBar {
-		display: none;
-	}
-
+	
 	
 
 	@media screen and (max-width: 736px) {
 
-		.imageQ {
-			position: relative; /* Or any other positioning you desire */
-			top:0;
-			left: 0;
-			display: block; /* Display the image on mobile */
-			/* Add any other styles you want for mobile */
-		}
+		
 
 		/* Basic */
 
@@ -2915,6 +2907,20 @@ input, select, textarea {
 			}
 
 		/* Nav */
+
+
+		
+		
+		  
+		  
+
+		 
+		
+		
+		
+
+
+
 
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
