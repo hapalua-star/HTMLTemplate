@@ -2321,7 +2321,7 @@ input, select, textarea {
 
 .imageQ {
     position: fixed;
-    top: 10px;
+    top: 5px;
     left: 0px;
 	z-index: 12;
 	
