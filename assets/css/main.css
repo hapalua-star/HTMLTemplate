@@ -2795,6 +2795,7 @@ input, select, textarea {
 
 		.imageQ {
 			position: relative; /* Or any other positioning you desire */
+			top:0;
 			left: 0;
 			display: block; /* Display the image on mobile */
 			/* Add any other styles you want for mobile */
