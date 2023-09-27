@@ -2789,7 +2789,16 @@ input, select, textarea {
 		display: none;
 	}
 
+	
+
 	@media screen and (max-width: 736px) {
+
+		.imageQ {
+			position: relative; /* Or any other positioning you desire */
+			left: 0;
+			display: block; /* Display the image on mobile */
+			/* Add any other styles you want for mobile */
+		}
 
 		/* Basic */
 
