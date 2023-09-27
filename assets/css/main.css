@@ -2325,6 +2325,16 @@ input, select, textarea {
     left: 0px;
 	z-index: 12;
 	
+	
+}
+
+#drQ{
+	position: fixed;
+	width:90px;
+	height:40px;
+	left:30px;
+	top:20px;
+
 }
 
 
