@@ -2315,18 +2315,14 @@ input, select, textarea {
 
 /* Nav */
 
-.combine{
-
-	
-
+.combine {
+    position: relative; /* Change to relative positioning */
 }
 
-.imageQ{
-position:relative;
-top:0px;
-left: -90px;
-
-
+.imageQ {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 
@@ -2342,14 +2338,13 @@ left: -90px;
 		overflow: hidden;
 		background-color: #dddddd7a;
 		
-		
 	}
 
 		#nav > ul {
 			line-height: 0px;
 			
 			position: relative;
-			top:-30px;
+			top:5px;
 			display: inline-block;
 			margin: 0;
 			height: 21px;
