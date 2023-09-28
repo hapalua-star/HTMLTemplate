@@ -2849,6 +2849,35 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		.textwidth{
+			width:300px;
+            margin-left: 70px;
+		}
+
+        .roundedimg{
+			width:300px;
+			margin-bottom: -20px;
+		}
+
+		.containerspecial{
+           display:flex;
+		   flex-direction: column;
+		   align-items: center;
+           margin-right: 60px;
+		   
+
+		}
+
+		.aboutus{
+			margin-top: 10px;
+		}
+
+		.button{
+
+			margin-left: 30px;
+		}
+
+
 		
 
 		/* Basic */
