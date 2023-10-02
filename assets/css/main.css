@@ -8,6 +8,13 @@
 */
 
 /*added images and what not*/
+.drqutabpic{
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+}
+
 .imagefeatured{
 
 margin-left: 50px;
@@ -2830,6 +2837,15 @@ input, select, textarea {
 			}
 
 		/* Carousel */
+		    .drqutabpic{
+               padding-left: 8px;
+			   padding-top: 8px;
+			   padding-bottom: 8px;
+			   padding-right: 8px;
+			   
+
+
+			}
 
 			.carousel {
 				padding: 1.25em 0 1.25em 0;
