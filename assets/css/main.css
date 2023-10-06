@@ -8,13 +8,22 @@
 */
 
 /*added images and what not*/
-.imageround
-{
-	border-radius: 40px;
-	height:200px;
-	
-	
+.box{
+   border-radius: 40px;
+   width:350px;
+   height:219px;
+   background-color:#f5edf5 ;
+   margin-bottom: 60px;
+   margin-left:-24px;
+   gap: 60px;
+
 }
+
+
+
+
+
+
 
 
 
