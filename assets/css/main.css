@@ -26,6 +26,9 @@
 	flex-direction:column;
 	align-items:center;
 	justify-content:baseline;
+	background-color: #f0e6da;
+	margin-top: -65px;
+	padding-top: 60px;
 	
 }
 
@@ -39,8 +42,8 @@
 
 .imageB{
 	border-radius: 40px;
-    width:500px;
-	height:400px;
+    width:1000px;
+	height:500px;
 	margin-bottom: 27px;
 	margin-top: -14px;
 }
@@ -183,6 +186,7 @@ input, select, textarea {
 
 	*, *:before, *:after {
 		box-sizing: inherit;
+
 	}
 
 	body {
@@ -2164,11 +2168,12 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
+		
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #5ad0e03a;
 		color: #fff;
-		text-align: center;
+		text-align:center;
 		border-radius: 0.5em;
 		text-decoration: none;
 		padding: 0.65em 3em 0.65em 3em;
@@ -2360,8 +2365,8 @@ input, select, textarea {
 		#header .button {
 			display: inline-block;
 			border-radius: 100%;
-			width: 4.5em;
-			height: 4.5em;
+			width: 220px;
+			height: 130px;
 			line-height: 4.5em;
 			text-align: center;
 			font-size: 1.25em;
